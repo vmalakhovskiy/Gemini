@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="10117"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="ViewController" customModule="Gemini" customModuleProvider="target">
+            <connections>
+                <outlet property="comparableImageView" destination="SiD-HU-iAC" id="UqP-Xz-9mI"/>
+                <outlet property="comparableViewTrailingConstraint" destination="fBU-Fp-Lff" id="wGD-xa-Iv7"/>
+                <outlet property="compareButton" destination="FPr-DD-j2T" id="M29-KU-20O"/>
+                <outlet property="comparingImageView" destination="fLf-k2-Xra" id="K77-uk-WlA"/>
+                <outlet property="comparingViewLeadingConstraint" destination="cSB-aq-pIj" id="UVp-mB-3jX"/>
+                <outlet property="infoLabel" destination="UJP-Km-CU7" id="AnY-RZ-9LT"/>
+                <outlet property="view" destination="c22-O7-iKe" id="Pdj-e9-Jm1"/>
+                <outlet property="xrayImageView" destination="wZp-m2-QpA" id="87l-AU-iPN"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView wantsLayer="YES" id="c22-O7-iKe">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="272"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fLf-k2-Xra" customClass="FolderPickerImageView" customModule="Gemini" customModuleProvider="target">
+                    <rect key="frame" x="20" y="63" width="146" height="146"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="146" id="7Hb-4m-yU9"/>
+                        <constraint firstAttribute="width" constant="146" id="bo0-5f-kG8"/>
+                    </constraints>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="Folder" id="fNj-nJ-gb3"/>
+                </imageView>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="SiD-HU-iAC" customClass="FolderPickerImageView" customModule="Gemini" customModuleProvider="target">
+                    <rect key="frame" x="314" y="63" width="146" height="146"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="146" id="AxC-uH-rTX"/>
+                        <constraint firstAttribute="height" constant="146" id="qlZ-L6-lEV"/>
+                    </constraints>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="Folder" id="WOV-zt-2SV"/>
+                </imageView>
+                <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FPr-DD-j2T">
+                    <rect key="frame" x="193" y="224" width="96" height="32"/>
+                    <buttonCell key="cell" type="push" title="Compare" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="fnZ-Xa-sUb">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                </button>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wZp-m2-QpA">
+                    <rect key="frame" x="126" y="-40" width="228" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="PWI-cK-2Yo"/>
+                        <constraint firstAttribute="width" constant="228" id="Tf1-fF-2bW"/>
+                    </constraints>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="XRay" id="NtF-1V-QuE"/>
+                </imageView>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="UJP-Km-CU7">
+                    <rect key="frame" x="80" y="30" width="321" height="17"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Please drag'n'drop folders that you want to compare" id="H60-kl-aSx">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+            </subviews>
+            <constraints>
+                <constraint firstItem="fLf-k2-Xra" firstAttribute="centerY" secondItem="c22-O7-iKe" secondAttribute="centerY" id="3T6-UG-7w4"/>
+                <constraint firstItem="UJP-Km-CU7" firstAttribute="centerX" secondItem="c22-O7-iKe" secondAttribute="centerX" id="99x-SH-Uzq"/>
+                <constraint firstItem="wZp-m2-QpA" firstAttribute="top" secondItem="UJP-Km-CU7" secondAttribute="bottom" constant="30" id="XH4-ER-PhX"/>
+                <constraint firstItem="fLf-k2-Xra" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" constant="20" id="cSB-aq-pIj"/>
+                <constraint firstAttribute="trailing" secondItem="SiD-HU-iAC" secondAttribute="trailing" constant="20" id="fBU-Fp-Lff"/>
+                <constraint firstItem="wZp-m2-QpA" firstAttribute="centerX" secondItem="c22-O7-iKe" secondAttribute="centerX" id="iHB-G1-S0x"/>
+                <constraint firstItem="wZp-m2-QpA" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="bottom" id="nkM-1e-S9q"/>
+                <constraint firstItem="SiD-HU-iAC" firstAttribute="centerY" secondItem="c22-O7-iKe" secondAttribute="centerY" id="uwZ-wX-m4r"/>
+            </constraints>
+            <point key="canvasLocation" x="197" y="287"/>
+        </customView>
+    </objects>
+    <resources>
+        <image name="Folder" width="249" height="198"/>
+        <image name="XRay" width="310" height="54"/>
+    </resources>
+</document>

@@ -1,0 +1,5 @@
+use_frameworks!
+
+target 'Gemini' do
+	pod 'ReactiveCocoa', '~> 4.2.1'
+end

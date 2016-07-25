@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E1DE49D1D4691FE00016D00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E1DE49C1D4691FE00016D00 /* Assets.xcassets */; };
+		4E1DE4C01D46B09700016D00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1DE4A91D46B09700016D00 /* AppDelegate.swift */; };
+		4E1DE4C11D46B09700016D00 /* Window.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E1DE4AA1D46B09700016D00 /* Window.xib */; };
+		4E1DE4C21D46B09700016D00 /* GeminiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1DE4AC1D46B09700016D00 /* GeminiManager.swift */; };
+		4E1DE4C31D46B09700016D00 /* Folder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1DE4AE1D46B09700016D00 /* Folder.swift */; };
+		4E1DE4C41D46B09700016D00 /* ActionTypeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1DE4B01D46B09700016D00 /* ActionTypeExtensions.swift */; };
+		4E1DE4C51D46B09700016D00 /* IntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1DE4B11D46B09700016D00 /* IntExtensions.swift */; };
+		4E1DE4C61D46B09700016D00 /* NSBezierPathExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1DE4B21D46B09700016D00 /* NSBezierPathExtensions.swift */; };
+		4E1DE4C71D46B09700016D00 /* NSControlExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1DE4B31D46B09700016D00 /* NSControlExtensions.swift */; };
+		4E1DE4C81D46B09700016D00 /* NSDataExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1DE4B41D46B09700016D00 /* NSDataExtensions.swift */; };
+		4E1DE4C91D46B09700016D00 /* NSFileManagerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1DE4B51D46B09700016D00 /* NSFileManagerExtensions.swift */; };
+		4E1DE4CA1D46B09700016D00 /* NSObjectExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1DE4B61D46B09700016D00 /* NSObjectExtensions.swift */; };
+		4E1DE4CB1D46B09700016D00 /* SignalProducerTypeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1DE4B71D46B09700016D00 /* SignalProducerTypeExtensions.swift */; };
+		4E1DE4CC1D46B09700016D00 /* SignalTypeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1DE4B81D46B09700016D00 /* SignalTypeExtensions.swift */; };
+		4E1DE4CD1D46B09700016D00 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1DE4B91D46B09700016D00 /* StringExtensions.swift */; };
+		4E1DE4CE1D46B09700016D00 /* FolderPickerImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1DE4BB1D46B09700016D00 /* FolderPickerImageView.swift */; };
+		4E1DE4CF1D46B09700016D00 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1DE4BC1D46B09700016D00 /* Model.swift */; };
+		4E1DE4D01D46B09700016D00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1DE4BD1D46B09700016D00 /* ViewController.swift */; };
+		4E1DE4D11D46B09700016D00 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E1DE4BE1D46B09700016D00 /* ViewController.xib */; };
+		4E1DE4D21D46B09700016D00 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1DE4BF1D46B09700016D00 /* ViewModel.swift */; };
+		ADF18631A3B312EE9FF85E93 /* Pods_Gemini.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A260BB51693366BFB6266A8 /* Pods_Gemini.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E1DE49C1D4691FE00016D00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E1DE4A91D46B09700016D00 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4E1DE4AA1D46B09700016D00 /* Window.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Window.xib; sourceTree = "<group>"; };
+		4E1DE4AC1D46B09700016D00 /* GeminiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeminiManager.swift; sourceTree = "<group>"; };
+		4E1DE4AE1D46B09700016D00 /* Folder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Folder.swift; sourceTree = "<group>"; };
+		4E1DE4B01D46B09700016D00 /* ActionTypeExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionTypeExtensions.swift; sourceTree = "<group>"; };
+		4E1DE4B11D46B09700016D00 /* IntExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExtensions.swift; sourceTree = "<group>"; };
+		4E1DE4B21D46B09700016D00 /* NSBezierPathExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSBezierPathExtensions.swift; sourceTree = "<group>"; };
+		4E1DE4B31D46B09700016D00 /* NSControlExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSControlExtensions.swift; sourceTree = "<group>"; };
+		4E1DE4B41D46B09700016D00 /* NSDataExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDataExtensions.swift; sourceTree = "<group>"; };
+		4E1DE4B51D46B09700016D00 /* NSFileManagerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSFileManagerExtensions.swift; sourceTree = "<group>"; };
+		4E1DE4B61D46B09700016D00 /* NSObjectExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObjectExtensions.swift; sourceTree = "<group>"; };
+		4E1DE4B71D46B09700016D00 /* SignalProducerTypeExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignalProducerTypeExtensions.swift; sourceTree = "<group>"; };
+		4E1DE4B81D46B09700016D00 /* SignalTypeExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignalTypeExtensions.swift; sourceTree = "<group>"; };
+		4E1DE4B91D46B09700016D00 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		4E1DE4BB1D46B09700016D00 /* FolderPickerImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FolderPickerImageView.swift; sourceTree = "<group>"; };
+		4E1DE4BC1D46B09700016D00 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		4E1DE4BD1D46B09700016D00 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4E1DE4BE1D46B09700016D00 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		4E1DE4BF1D46B09700016D00 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		4EC1F3201D32ABBD00AE6D9A /* Gemini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gemini.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EC1F32C1D32ABBD00AE6D9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7570453A7E6EEB5B359B634C /* Pods-Gemini.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gemini.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gemini/Pods-Gemini.release.xcconfig"; sourceTree = "<group>"; };
+		7FC104CC47EA2C0B088A9773 /* Pods_GeminiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeminiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A260BB51693366BFB6266A8 /* Pods_Gemini.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gemini.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13E633EE2BBCAC81B2DEDD6 /* Pods-Gemini.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gemini.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gemini/Pods-Gemini.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EC1F31D1D32ABBD00AE6D9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF18631A3B312EE9FF85E93 /* Pods_Gemini.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0514B0C0ECCB06C2E0666544 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A260BB51693366BFB6266A8 /* Pods_Gemini.framework */,
+				7FC104CC47EA2C0B088A9773 /* Pods_GeminiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1350E16B462EF0DF740C2B49 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F13E633EE2BBCAC81B2DEDD6 /* Pods-Gemini.debug.xcconfig */,
+				7570453A7E6EEB5B359B634C /* Pods-Gemini.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4E1DE4A81D46B09700016D00 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				4E1DE4A91D46B09700016D00 /* AppDelegate.swift */,
+				4E1DE4AA1D46B09700016D00 /* Window.xib */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		4E1DE4AB1D46B09700016D00 /* BusinessLogic */ = {
+			isa = PBXGroup;
+			children = (
+				4E1DE4AC1D46B09700016D00 /* GeminiManager.swift */,
+			);
+			path = BusinessLogic;
+			sourceTree = "<group>";
+		};
+		4E1DE4AD1D46B09700016D00 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				4E1DE4AE1D46B09700016D00 /* Folder.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		4E1DE4AF1D46B09700016D00 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4E1DE4B01D46B09700016D00 /* ActionTypeExtensions.swift */,
+				4E1DE4B11D46B09700016D00 /* IntExtensions.swift */,
+				4E1DE4B21D46B09700016D00 /* NSBezierPathExtensions.swift */,
+				4E1DE4B31D46B09700016D00 /* NSControlExtensions.swift */,
+				4E1DE4B41D46B09700016D00 /* NSDataExtensions.swift */,
+				4E1DE4B51D46B09700016D00 /* NSFileManagerExtensions.swift */,
+				4E1DE4B61D46B09700016D00 /* NSObjectExtensions.swift */,
+				4E1DE4B71D46B09700016D00 /* SignalProducerTypeExtensions.swift */,
+				4E1DE4B81D46B09700016D00 /* SignalTypeExtensions.swift */,
+				4E1DE4B91D46B09700016D00 /* StringExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4E1DE4BA1D46B09700016D00 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				4E1DE4BB1D46B09700016D00 /* FolderPickerImageView.swift */,
+				4E1DE4BC1D46B09700016D00 /* Model.swift */,
+				4E1DE4BD1D46B09700016D00 /* ViewController.swift */,
+				4E1DE4BE1D46B09700016D00 /* ViewController.xib */,
+				4E1DE4BF1D46B09700016D00 /* ViewModel.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		4EC1F3171D32ABBD00AE6D9A = {
+			isa = PBXGroup;
+			children = (
+				4EC1F3221D32ABBD00AE6D9A /* Gemini */,
+				4EC1F3211D32ABBD00AE6D9A /* Products */,
+				1350E16B462EF0DF740C2B49 /* Pods */,
+				0514B0C0ECCB06C2E0666544 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4EC1F3211D32ABBD00AE6D9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EC1F3201D32ABBD00AE6D9A /* Gemini.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EC1F3221D32ABBD00AE6D9A /* Gemini */ = {
+			isa = PBXGroup;
+			children = (
+				4E1DE4A81D46B09700016D00 /* Application */,
+				4E1DE4AB1D46B09700016D00 /* BusinessLogic */,
+				4E1DE4AD1D46B09700016D00 /* Data */,
+				4E1DE4AF1D46B09700016D00 /* Extensions */,
+				4E1DE4BA1D46B09700016D00 /* Presentation */,
+				4EC1F32C1D32ABBD00AE6D9A /* Info.plist */,
+				4E1DE49C1D4691FE00016D00 /* Assets.xcassets */,
+			);
+			path = Gemini;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EC1F31F1D32ABBD00AE6D9A /* Gemini */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EC1F33A1D32ABBD00AE6D9A /* Build configuration list for PBXNativeTarget "Gemini" */;
+			buildPhases = (
+				9696AAB6CDE6829740BB24B6 /* [CP] Check Pods Manifest.lock */,
+				4EC1F31C1D32ABBD00AE6D9A /* Sources */,
+				4EC1F31D1D32ABBD00AE6D9A /* Frameworks */,
+				4EC1F31E1D32ABBD00AE6D9A /* Resources */,
+				88B2903B4E9A98E868E0F107 /* [CP] Embed Pods Frameworks */,
+				06BA177C13CA24138CDB73B4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gemini;
+			productName = Gemini;
+			productReference = 4EC1F3201D32ABBD00AE6D9A /* Gemini.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EC1F3181D32ABBD00AE6D9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Vitalii Malakhovskyi";
+				TargetAttributes = {
+					4EC1F31F1D32ABBD00AE6D9A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 4EC1F31B1D32ABBD00AE6D9A /* Build configuration list for PBXProject "Gemini" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EC1F3171D32ABBD00AE6D9A;
+			productRefGroup = 4EC1F3211D32ABBD00AE6D9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EC1F31F1D32ABBD00AE6D9A /* Gemini */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EC1F31E1D32ABBD00AE6D9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E1DE49D1D4691FE00016D00 /* Assets.xcassets in Resources */,
+				4E1DE4D11D46B09700016D00 /* ViewController.xib in Resources */,
+				4E1DE4C11D46B09700016D00 /* Window.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06BA177C13CA24138CDB73B4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gemini/Pods-Gemini-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88B2903B4E9A98E868E0F107 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gemini/Pods-Gemini-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9696AAB6CDE6829740BB24B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EC1F31C1D32ABBD00AE6D9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E1DE4CF1D46B09700016D00 /* Model.swift in Sources */,
+				4E1DE4C61D46B09700016D00 /* NSBezierPathExtensions.swift in Sources */,
+				4E1DE4CC1D46B09700016D00 /* SignalTypeExtensions.swift in Sources */,
+				4E1DE4CA1D46B09700016D00 /* NSObjectExtensions.swift in Sources */,
+				4E1DE4C51D46B09700016D00 /* IntExtensions.swift in Sources */,
+				4E1DE4C91D46B09700016D00 /* NSFileManagerExtensions.swift in Sources */,
+				4E1DE4D21D46B09700016D00 /* ViewModel.swift in Sources */,
+				4E1DE4C21D46B09700016D00 /* GeminiManager.swift in Sources */,
+				4E1DE4CE1D46B09700016D00 /* FolderPickerImageView.swift in Sources */,
+				4E1DE4C41D46B09700016D00 /* ActionTypeExtensions.swift in Sources */,
+				4E1DE4C81D46B09700016D00 /* NSDataExtensions.swift in Sources */,
+				4E1DE4C71D46B09700016D00 /* NSControlExtensions.swift in Sources */,
+				4E1DE4CB1D46B09700016D00 /* SignalProducerTypeExtensions.swift in Sources */,
+				4E1DE4C01D46B09700016D00 /* AppDelegate.swift in Sources */,
+				4E1DE4CD1D46B09700016D00 /* StringExtensions.swift in Sources */,
+				4E1DE4D01D46B09700016D00 /* ViewController.swift in Sources */,
+				4E1DE4C31D46B09700016D00 /* Folder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4EC1F3381D32ABBD00AE6D9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4EC1F3391D32ABBD00AE6D9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4EC1F33B1D32ABBD00AE6D9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F13E633EE2BBCAC81B2DEDD6 /* Pods-Gemini.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Gemini/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vm.Gemini;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Gemini/Gemini-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4EC1F33C1D32ABBD00AE6D9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7570453A7E6EEB5B359B634C /* Pods-Gemini.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Gemini/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vm.Gemini;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Gemini/Gemini-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EC1F31B1D32ABBD00AE6D9A /* Build configuration list for PBXProject "Gemini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EC1F3381D32ABBD00AE6D9A /* Debug */,
+				4EC1F3391D32ABBD00AE6D9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EC1F33A1D32ABBD00AE6D9A /* Build configuration list for PBXNativeTarget "Gemini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EC1F33B1D32ABBD00AE6D9A /* Debug */,
+				4EC1F33C1D32ABBD00AE6D9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EC1F3181D32ABBD00AE6D9A /* Project object */;
+}
