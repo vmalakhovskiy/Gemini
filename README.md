@@ -2,7 +2,7 @@
 ---
 Gemini compares 2 directories and tells if they are the same
 
-###Hot to use?
+###How to use?
 You need to drag and drop folders to each folder icon and press *compare* button to start. While comparison is in the process you can press *Esc* to cancel operation. As the result, you'll see modal screen with summary.
 *Note* There is 3 seconds delay before comparison operation starts. That was implemented because comparison works pretty fast (at least with small directories ), so animation doesn't look so cool.
 
