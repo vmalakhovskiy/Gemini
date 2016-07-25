@@ -11,8 +11,9 @@ Animation done in 2 ways. Folders animate by chaging layout constraints constant
 
 ###How do comparison works?
 Given directories parsed into 'Folder' struct. It contains map 2 properties:
-```files: [String: String] - [hash : name]
-folders: [String: Folder] - [relativePath : folder]```
+
+    files: [String: String] - [hash : name]
+    folders: [String: Folder] - [relativePath : folder]
 
 ###Hey, what about ignore-list?
 It is implemented in 'GeminiManager'. You need to pass an array of strings that contains file name patterns that needs to be ignored. You can specify file name and extension for exact matching or you can use * to ignore file or extensions or both parts.
